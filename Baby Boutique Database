@@ -1,0 +1,24 @@
+# SQL
+SQL Portfolio
+CREATE TABLE baby_clothes (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, size TEXT, price NUMERIC); 
+INSERT INTO baby_clothes VALUES (1, "Onesies", 17, "Newborn", 10); 
+INSERT INTO baby_clothes VALUES (2, "Onesies", 24, "3 month", 12); 
+INSERT INTO baby_clothes VALUES (3, "Onesies", 26, "6 month", 12);
+INSERT INTO baby_clothes VALUES (4, "Onesies", 25, "9 month", 14); 
+INSERT INTO baby_clothes VALUES (5, "Onesies", 30, "12 month", 14); 
+INSERT INTO baby_clothes VALUES (6, "Footed Pajamas", 35, "Newborn", 20);
+INSERT INTO baby_clothes VALUES (7, "Footed Pajamas", 40, "3 month", 18); 
+INSERT INTO baby_clothes VALUES (8, "Pacifiers", 25, "One", 6); 
+INSERT INTO baby_clothes VALUES (9, "Knotted Gown", 34, "Newborn", 30); 
+INSERT INTO baby_clothes VALUES (10, "Baby Shoes", 12, "One", 15);
+INSERT INTO baby_clothes VALUES (11, "Baby Socks", 12, "One", 4); 
+INSERT INTO baby_clothes VALUES (12, "Mittens", 30, "One", 4); 
+INSERT INTO baby_clothes VALUES (13, "Baby Hats", 40, "One", 8); 
+INSERT INTO baby_clothes VALUES (14, "Ribbed Pants", 20, "3 month", 14);
+INSERT INTO baby_clothes VALUES (15, "Ribbed Pants", 25, "12 month", 14); 
+
+SELECT * FROM baby_clothes; 
+SELECT price, AVG(price) FROM baby_clothes; 
+SELECT price FROM baby_clothes; 
+
+
